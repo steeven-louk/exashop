@@ -19,6 +19,27 @@ import kid4 from "../assets/kids/latest/kid4.png";
 import kid5 from "../assets/kids/latest/kid5.png";
 import kid6 from "../assets/kids/latest/kid6.png";
 
+import kidFeatured1 from "../assets/kids/featured/featured1.png";
+import kidFeatured2 from "../assets/kids/featured/featured2.png";
+import kidFeatured3 from "../assets/kids/featured/featured3.png";
+import kidFeatured4 from "../assets/kids/featured/featured4.png";
+import kidFeatured5 from "../assets/kids/featured/featured5.png";
+import kidFeatured6 from "../assets/kids/featured/featured6.png";
+
+import menFeatured1 from "../assets/men/featured/featured1.png";
+import menFeatured2 from "../assets/men/featured/featured2.png";
+import menFeatured3 from "../assets/men/featured/featured3.png";
+import menFeatured4 from "../assets/men/featured/featured4.png";
+import menFeatured5 from "../assets/men/featured/featured5.png";
+import menFeatured6 from "../assets/men/featured/featured6.png";
+
+import menCasual1 from "../assets/men/casual/casual1.png";
+import menCasual2 from "../assets/men/casual/casual2.png";
+import menCasual3 from "../assets/men/casual/casual3.png";
+import menCasual4 from "../assets/men/casual/casual4.png";
+import menCasual5 from "../assets/men/casual/casual5.png";
+import menCasual6 from "../assets/men/casual/casual6.png";
+
 const menLatest =[
     {
         "image": men1,
@@ -121,6 +142,107 @@ const kidLatest =[
 
 ]
 
+const kidFeatured =[
+    {
+        "image": kidFeatured1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidFeatured2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidFeatured3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidFeatured4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidFeatured5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidFeatured6,
+        "name": "classic spring",
+        "price": 120.00
+    },
+
+]
+
+const menFeatured =[
+    {
+        "image": menFeatured1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menFeatured2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menFeatured3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menFeatured4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menFeatured5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menFeatured6,
+        "name": "classic spring",
+        "price": 120.00
+    },
+
+]
+
+const menCasual =[
+    {
+        "image": menCasual1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menCasual2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menCasual3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menCasual4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menCasual5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": menCasual6,
+        "name": "classic spring",
+        "price": 120.00
+    },
+
+]
 
 
-export {menLatest, womenLatest, kidLatest}
+export {menLatest, womenLatest, kidLatest, kidFeatured, menFeatured, menCasual}

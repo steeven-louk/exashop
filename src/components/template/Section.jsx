@@ -24,7 +24,7 @@ export const Section = (props) => {
     >
 
 
-      {props?.items?.map((item, index)=>(<SwiperSlide key={index}><Card   item={item}/></SwiperSlide>))} 
+      {props?.items?.map((item, index)=>(<SwiperSlide key={index}><Card className="col-md-8"  item={item}/></SwiperSlide>))} 
 
     </Swiper>
         

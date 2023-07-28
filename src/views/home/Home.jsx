@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Header } from "../../components/header/Header";
 import { Section } from "../../components/template/Section";
 import { kidLatest, menLatest, womenLatest } from "../../services/data";
