@@ -3,6 +3,7 @@ import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
 import { ContactUs } from './views/ContactUs'
+import { ProductDetail } from './views/ProductDetail'
 import { Home } from './views/home/Home'
 import { Kids } from './views/kids/Kids'
 import { Men } from './views/mens/Men'
@@ -17,7 +18,8 @@ function App() {
       {/* <Men/> */}
       {/* <Women/> */}
       {/* <Kids/> */}
-      <ContactUs/>
+      {/* <ContactUs/> */}
+      <ProductDetail/>
       <Footer/>
     </>
   )
