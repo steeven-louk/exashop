@@ -33,6 +33,20 @@ import menFeatured4 from "../assets/men/featured/featured4.png";
 import menFeatured5 from "../assets/men/featured/featured5.png";
 import menFeatured6 from "../assets/men/featured/featured6.png";
 
+import womenFeatured1 from "../assets/women/featured/featured1.png";
+import womenFeatured2 from "../assets/women/featured/featured2.png";
+import womenFeatured3 from "../assets/women/featured/featured3.png";
+import womenFeatured4 from "../assets/women/featured/featured4.png";
+import womenFeatured5 from "../assets/women/featured/featured5.png";
+import womenFeatured6 from "../assets/women/featured/featured6.png";
+
+import womenCasual1 from "../assets/women/casual/casual1.png";
+import womenCasual2 from "../assets/women/casual/casual2.png";
+import womenCasual3 from "../assets/women/casual/casual3.png";
+import womenCasual4 from "../assets/women/casual/casual4.png";
+import womenCasual5 from "../assets/women/casual/casual5.png";
+import womenCasual6 from "../assets/women/casual/casual6.png";
+
 import menCasual1 from "../assets/men/casual/casual1.png";
 import menCasual2 from "../assets/men/casual/casual2.png";
 import menCasual3 from "../assets/men/casual/casual3.png";
@@ -107,6 +121,43 @@ const womenLatest =[
     },
 
 ]
+
+const womenFeatured =[
+    {
+        "image": womenFeatured1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenFeatured2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenFeatured3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenFeatured4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenFeatured5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenFeatured6,
+        "name": "classic spring",
+        "price": 120.00
+    },
+
+]
+
+
+
 
 const kidLatest =[
     {
@@ -244,5 +295,40 @@ const menCasual =[
 
 ]
 
+const womenCasual =[
+    {
+        "image": womenCasual1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenCasual2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenCasual3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenCasual4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenCasual5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": womenCasual6,
+        "name": "classic spring",
+        "price": 120.00
+    },
 
-export {menLatest, womenLatest, kidLatest, kidFeatured, menFeatured, menCasual}
+]
+
+
+
+export {menLatest, womenLatest,womenCasual,womenFeatured, kidLatest, kidFeatured, menFeatured, menCasual}

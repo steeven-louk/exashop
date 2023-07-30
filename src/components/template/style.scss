@@ -2,8 +2,9 @@
     background: no-repeat url('../../assets/collection/bgCollection.png');
     background-size: cover;
     width: 100%;
-    max-height: 500px;
-    height: 100%;
+    // max-height: 500px;
+    height: 500px;
     padding: 25px;
     margin-top: 50px;
+    box-sizing: border-box;
 }
