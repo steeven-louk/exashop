@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="text-white bg-dark pt-3">
+    <footer className="text-white bg-dark mt-4 pt-3">
       <div className="container mb-4">
       <div className="row">
           <div className="col-md-3" >
@@ -14,7 +14,7 @@ export const Footer = () => {
           </div>
           <div className="col-md-3">
             <h5 className="fw-bold fs-6 text mb-3">Shopping and Categories</h5>
-            <ul className="nav">
+            <ul className="nav flex-column gap-2">
               <li>Men's Shopping</li>
               <li>Women's Shopping</li>
               <li>Kid's Shopping</li>
@@ -22,7 +22,7 @@ export const Footer = () => {
           </div>
           <div className="col-md-3">
           <h5 className="fw-bold fs-6 mb-3">Useful Links</h5>
-            <ul className="nav">
+            <ul className="nav flex-column gap-2">
               <li>Homepage</li>
               <li>About Us</li>
               <li>Help</li>
@@ -31,7 +31,7 @@ export const Footer = () => {
           </div>
           <div className="col-md-3">
           <h5 className="fw-bold fs-6 mb-3">Help & Information</h5>
-            <ul className="nav">
+            <ul className="nav flex-column gap-2">
               <li>FAQS</li>
               <li>Shopping Us</li>
               <li>Tracking Id</li>

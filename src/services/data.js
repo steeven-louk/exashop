@@ -54,6 +54,13 @@ import menCasual4 from "../assets/men/casual/casual4.png";
 import menCasual5 from "../assets/men/casual/casual5.png";
 import menCasual6 from "../assets/men/casual/casual6.png";
 
+import kidsCasual1 from "../assets/kids/casual/casual1.png";
+import kidsCasual2 from "../assets/kids/casual/casual2.png";
+import kidsCasual3 from "../assets/kids/casual/casual3.png";
+import kidsCasual4 from "../assets/kids/casual/casual4.png";
+import kidsCasual5 from "../assets/kids/casual/casual5.png";
+import kidsCasual6 from "../assets/kids/casual/casual6.png";
+
 const menLatest =[
     {
         "image": men1,
@@ -227,6 +234,41 @@ const kidFeatured =[
 
 ]
 
+
+const kidCasual =[
+    {
+        "image": kidsCasual1,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidsCasual2,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidsCasual3,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidsCasual4,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidsCasual5,
+        "name": "classic spring",
+        "price": 120.00
+    },
+    {
+        "image": kidsCasual6,
+        "name": "classic spring",
+        "price": 120.00
+    },
+
+]
+
 const menFeatured =[
     {
         "image": menFeatured1,
@@ -331,4 +373,4 @@ const womenCasual =[
 
 
 
-export {menLatest, womenLatest,womenCasual,womenFeatured, kidLatest, kidFeatured, menFeatured, menCasual}
+export {menLatest, womenLatest,womenCasual,womenFeatured, kidLatest,kidCasual, kidFeatured, menFeatured, menCasual}

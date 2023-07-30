@@ -10,7 +10,7 @@ export const Women = () => {
             <SectionPages  items={womenLatest} sectionTitle="women latest"/>
             <SectionPages  items={womenFeatured} sectionTitle="featured"/>
             </div>
-            <Collection title="Kid's Collection" img1={img1} img2={img2} />
+            <Collection title="Men's Collection" img1={img1} img2={img2} />
             <div className="container my-5">
             <SectionPages  items={womenCasual} sectionTitle="casual"/>
             </div>
