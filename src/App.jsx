@@ -2,6 +2,7 @@
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
+import { ContactUs } from './views/ContactUs'
 import { Home } from './views/home/Home'
 import { Kids } from './views/kids/Kids'
 import { Men } from './views/mens/Men'
@@ -15,7 +16,8 @@ function App() {
       {/* <Home/> */}
       {/* <Men/> */}
       {/* <Women/> */}
-      <Kids/>
+      {/* <Kids/> */}
+      <ContactUs/>
       <Footer/>
     </>
   )
