@@ -2,6 +2,7 @@
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
+import { CartDetail } from './views/CartDetail'
 import { ContactUs } from './views/ContactUs'
 import { Faqs } from './views/Faqs'
 import { ProductDetail } from './views/ProductDetail'
@@ -21,7 +22,8 @@ function App() {
       {/* <Kids/> */}
       {/* <ContactUs/> */}
       {/* <ProductDetail/> */}
-      <Faqs/>
+      {/* <Faqs/> */}
+      <CartDetail/>
       <Footer/>
     </>
   )
