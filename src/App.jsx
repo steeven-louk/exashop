@@ -1,8 +1,8 @@
 
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
-import { CartDetail } from './views/CartDetail'
 import { ContactUs } from './views/ContactUs'
 import { Faqs } from './views/Faqs'
 import { ProductDetail } from './views/ProductDetail'
@@ -16,14 +16,16 @@ function App() {
   return (
     <>
       <Navbar/>
-      {/* <Home/> */}
-      {/* <Men/> */}
-      {/* <Women/> */}
-      {/* <Kids/> */}
-      {/* <ContactUs/> */}
-      {/* <ProductDetail/> */}
-      {/* <Faqs/> */}
-      <CartDetail/>
+
+      <Routes>
+        <Route path='/' exact element={<Home/>}/>
+        <Route path='/men' element={<Men/>}/>
+        <Route path='/women' element={<Women/>}/>
+        <Route path='/kids' element={<Kids/>}/>
+        <Route path='/contactUs' element={<ContactUs/>}/>
+        <Route path='/product/:id' element={<ProductDetail/>}/>
+        <Route path='/faqs' element={<Faqs/>}/>
+      </Routes>
       <Footer/>
     </>
   )

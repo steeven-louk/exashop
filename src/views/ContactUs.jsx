@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import bgContactUs from "../assets/header/bgContactUs.png";
 
 export const ContactUs = () => {
@@ -10,8 +11,9 @@ export const ContactUs = () => {
         <h2 className="text-capitalize text-center">get in touch</h2>
         <div className="row">
         <div className="col-md-6">
-          <div className="card" style={{ "width":"510px", "height":"310px" }} >
-              <div className="card-header text-capitalize">
+          <div className="card" style={{ "width":"510px" }} >
+              <div className="card-header text-center text-capitalize">
+              <FontAwesomeIcon style={{ fontSize:"5em" }} icon="fa-solid fa-phone-volume" />
                 <h5>talk to save</h5>
               </div>
               <div className="card-body">
@@ -29,8 +31,10 @@ andard dummy text ever since the 1500s.....
         </div>
 
         <div className="col-md-6">
-          <div className="card"  style={{ "width":"510px", "height":"310px" }}>
-              <div className="card-header text-capitalize">
+          <div className="card"  style={{ "width":"510px" }}>
+              <div className="card-header text-capitalize text-center">
+              <FontAwesomeIcon style={{ fontSize:"5em" }} icon="fa-solid fa-phone-volume" />
+
                 <h5>Contact Customer support</h5>
               </div>
               <div className="card-body">
